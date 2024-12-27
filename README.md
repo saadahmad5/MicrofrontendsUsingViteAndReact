@@ -45,6 +45,7 @@ npm run build
 npm run preview
 # Accessible at http://localhost:4173
 ```
+![MFE_Component](/resources/mfe-component.png)
 
 > <Important:> Keep `npm run preview` running for the `component` application, as its `remoteEntry.js` is consumed by `core`.
 
@@ -66,6 +67,8 @@ npm run build
 npm run preview
 # Accessible at http://localhost:4174
 ```
+![Core](/resources/core.png)
 
 > *Warning:* If `remoteEntry.js` from `component` is unavailable, `core` will display an error message.
 
+![Core_Error](/resources/core_error.png)
